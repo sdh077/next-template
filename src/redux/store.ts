@@ -1,5 +1,6 @@
 import { configureStore, createSerializableStateInvariantMiddleware, isPlain } from "@reduxjs/toolkit";
 import counterReducer from "./features/counterSlice";
+import alertReducer from "./features/alertSlice";
 import modalReducer from "./features/modalSlice";
 import userReducer from "./features/userSlice";
 
@@ -10,6 +11,7 @@ import { menuApi } from "./services/menuApi";
 
 export const store = configureStore({
     reducer: {
+        alertReducer,
         counterReducer,
         modalReducer,
         [userApi.reducerPath]: userApi.reducer,

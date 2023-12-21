@@ -4,6 +4,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useAppDispatch, useAppSelector } from "@/redux/hooks";
 import { Button, Modal } from 'flowbite-react';
+import Alert from './Alert';
 
 const ModalComponent = () => {
     const dispatch = useDispatch();
