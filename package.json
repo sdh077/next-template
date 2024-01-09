@@ -31,6 +31,7 @@
     "@types/next": "^9.0.0",
     "@types/paper": "^0.12.3",
     "autoprefixer": "^10.4.16",
+    "axios": "^1.6.3",
     "clsx": "^2.0.0",
     "cookies-next": "^4.1.0",
     "datatables.net-dt": "^1.13.8",

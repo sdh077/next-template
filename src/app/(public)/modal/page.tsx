@@ -36,9 +36,9 @@ const Modal = () => {
   };
   return (
     <div>
-      {/* <Button onClick={() => handleOpenModal(1)}>Open Modal1</Button>
+      <Button onClick={() => handleOpenModal(1)}>Open Modal1</Button>
       <Button onClick={() => handleOpenModal(2)}>Open Modal2</Button>
-      <Button onClick={() => handleOpenAlert(3)}>Open Alert</Button> */}
+      <Button onClick={() => handleOpenAlert(3)}>Open Alert</Button>
       <ButtonComponent piil={true} color={'gray'} icon={{ direction: 'right', Icon: HiOutlineArrowRight }} />
       <ButtonComponent tooltip='qwe'/>
     </div>

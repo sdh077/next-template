@@ -14,7 +14,7 @@ export const alert = createSlice({
   reducers: {
     openAlert: (state, actions) => {
       const { alertType, content, timeout } = actions.payload;
-      state.push({ id: Date.now(), alertType, content, timeout: timeout ?? 3000 })
+      state.push({ id: Date.now(), alertType, content, timeout: timeout ?? 1000 })
     },
     closeAlert: (state) => {
       state.shift();
